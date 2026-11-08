@@ -1,0 +1,19 @@
+{
+  "backend": "openmp",
+  "threads": 8,
+  "t_train": 1008,
+  "t_scored": 1008,
+  "m": 60,
+  "load": 0.024144567,
+  "means": 0.000460619,
+  "center": 0.000231404,
+  "covariance": 0.000284547,
+  "eigen": 0.000261366,
+  "select": 0.000686029,
+  "score": 0.000310173,
+  "compute_total": 0.00223463,
+  "write": 0.002008964,
+  "end_to_end": 0.02844914,
+  "cpu_seconds": 0.031099,
+  "peak_rss_mb": 6.83984375
+}

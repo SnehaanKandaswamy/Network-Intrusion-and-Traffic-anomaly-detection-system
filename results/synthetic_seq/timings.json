@@ -1,0 +1,19 @@
+{
+  "backend": "sequential",
+  "threads": 1,
+  "t_train": 1008,
+  "t_scored": 1008,
+  "m": 60,
+  "load": 0.023551757,
+  "means": 2.3592e-05,
+  "center": 4.1948e-05,
+  "covariance": 0.000236543,
+  "eigen": 0.000237184,
+  "select": 0.000142409,
+  "score": 8.1933e-05,
+  "compute_total": 0.000763872,
+  "write": 0.001868185,
+  "end_to_end": 0.026235814,
+  "cpu_seconds": 0.026066,
+  "peak_rss_mb": 6.375
+}

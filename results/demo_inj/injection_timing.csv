@@ -1,0 +1,6 @@
+backend,threads,rep,seconds,experiments
+sequential,1,0,4.2818,6912
+openmp,1,0,4.15752,6912
+openmp,4,0,1.21721,6912
+openmp,8,0,0.755122,6912
+openmp,16,0,0.62649,6912

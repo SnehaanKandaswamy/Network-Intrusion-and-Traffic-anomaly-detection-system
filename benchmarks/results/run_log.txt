@@ -1,0 +1,243 @@
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench pipeline --t 32768 --m 1024 --threads 1,2,4,6,8,12,16 --reps 5 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/scaling.csv
+generating 32768 x 1024 matrix (256.0 MiB)
+  seq       rep 0: 3.692 s
+  seq       rep 1: 3.732 s
+  seq       rep 2: 3.715 s
+  seq       rep 3: 3.643 s
+  seq       rep 4: 3.762 s
+  omp p= 1 rep 0: 3.727 s
+  omp p= 1 rep 1: 3.784 s
+  omp p= 1 rep 2: 3.753 s
+  omp p= 1 rep 3: 3.716 s
+  omp p= 1 rep 4: 3.742 s
+  omp p= 2 rep 0: 2.370 s
+  omp p= 2 rep 1: 2.304 s
+  omp p= 2 rep 2: 2.343 s
+  omp p= 2 rep 3: 2.319 s
+  omp p= 2 rep 4: 2.307 s
+  omp p= 4 rep 0: 1.576 s
+  omp p= 4 rep 1: 1.588 s
+  omp p= 4 rep 2: 1.610 s
+  omp p= 4 rep 3: 1.597 s
+  omp p= 4 rep 4: 1.595 s
+  omp p= 6 rep 0: 1.572 s
+  omp p= 6 rep 1: 1.497 s
+  omp p= 6 rep 2: 1.522 s
+  omp p= 6 rep 3: 1.509 s
+  omp p= 6 rep 4: 1.543 s
+  omp p= 8 rep 0: 1.570 s
+  omp p= 8 rep 1: 1.552 s
+  omp p= 8 rep 2: 1.510 s
+  omp p= 8 rep 3: 1.570 s
+  omp p= 8 rep 4: 1.564 s
+  omp p=12 rep 0: 1.429 s
+  omp p=12 rep 1: 1.461 s
+  omp p=12 rep 2: 1.460 s
+  omp p=12 rep 3: 1.514 s
+  omp p=12 rep 4: 1.475 s
+  omp p=16 rep 0: 1.550 s
+  omp p=16 rep 1: 1.539 s
+  omp p=16 rep 2: 1.525 s
+  omp p=16 rep 3: 1.535 s
+  omp p=16 rep 4: 1.496 s
+peak RSS 541.875 MiB
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench pipeline --t 16384 --m 128 --threads 4,8,16 --reps 3 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/msweep_m128.csv
+generating 16384 x 128 matrix (16.0 MiB)
+  seq       rep 0: 0.031 s
+  seq       rep 1: 0.031 s
+  seq       rep 2: 0.031 s
+  omp p= 4 rep 0: 0.016 s
+  omp p= 4 rep 1: 0.016 s
+  omp p= 4 rep 2: 0.016 s
+  omp p= 8 rep 0: 0.020 s
+  omp p= 8 rep 1: 0.028 s
+  omp p= 8 rep 2: 0.028 s
+  omp p=16 rep 0: 0.022 s
+  omp p=16 rep 1: 0.029 s
+  omp p=16 rep 2: 0.022 s
+peak RSS 38.246 MiB
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench pipeline --t 16384 --m 256 --threads 4,8,16 --reps 3 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/msweep_m256.csv
+generating 16384 x 256 matrix (32.0 MiB)
+  seq       rep 0: 0.106 s
+  seq       rep 1: 0.105 s
+  seq       rep 2: 0.105 s
+  omp p= 4 rep 0: 0.038 s
+  omp p= 4 rep 1: 0.039 s
+  omp p= 4 rep 2: 0.038 s
+  omp p= 8 rep 0: 0.051 s
+  omp p= 8 rep 1: 0.050 s
+  omp p= 8 rep 2: 0.052 s
+  omp p=16 rep 0: 0.045 s
+  omp p=16 rep 1: 0.039 s
+  omp p=16 rep 2: 0.040 s
+peak RSS 71.926 MiB
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench pipeline --t 16384 --m 512 --threads 4,8,16 --reps 3 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/msweep_m512.csv
+generating 16384 x 512 matrix (64.0 MiB)
+  seq       rep 0: 0.415 s
+  seq       rep 1: 0.411 s
+  seq       rep 2: 0.420 s
+  omp p= 4 rep 0: 0.187 s
+  omp p= 4 rep 1: 0.198 s
+  omp p= 4 rep 2: 0.190 s
+  omp p= 8 rep 0: 0.183 s
+  omp p= 8 rep 1: 0.183 s
+  omp p= 8 rep 2: 0.184 s
+  omp p=16 rep 0: 0.167 s
+  omp p=16 rep 1: 0.168 s
+  omp p=16 rep 2: 0.166 s
+peak RSS 139.008 MiB
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench pipeline --t 16384 --m 1024 --threads 4,8,16 --reps 3 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/msweep_m1024.csv
+generating 16384 x 1024 matrix (128.0 MiB)
+  seq       rep 0: 2.025 s
+  seq       rep 1: 2.030 s
+  seq       rep 2: 2.052 s
+  omp p= 4 rep 0: 1.148 s
+  omp p= 4 rep 1: 1.155 s
+  omp p= 4 rep 2: 1.165 s
+  omp p= 8 rep 0: 1.114 s
+  omp p= 8 rep 1: 1.108 s
+  omp p= 8 rep 2: 1.134 s
+  omp p=16 rep 0: 1.051 s
+  omp p=16 rep 1: 1.068 s
+  omp p=16 rep 2: 1.079 s
+peak RSS 285.246 MiB
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench pipeline --t 16384 --m 2048 --threads 4,8,16 --reps 3 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/msweep_m2048.csv
+generating 16384 x 2048 matrix (256.0 MiB)
+  seq       rep 0: 13.970 s
+  seq       rep 1: 13.611 s
+  seq       rep 2: 13.767 s
+  omp p= 4 rep 0: 9.272 s
+  omp p= 4 rep 1: 9.361 s
+  omp p= 4 rep 2: 9.281 s
+  omp p= 8 rep 0: 9.207 s
+  omp p= 8 rep 1: 9.126 s
+  omp p= 8 rep 2: 9.199 s
+  omp p=16 rep 0: 9.168 s
+  omp p=16 rep 1: 9.090 s
+  omp p=16 rep 2: 8.969 s
+peak RSS 614.188 MiB
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench pipeline --t 4096 --m 512 --threads 4,8,16 --reps 3 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/tsweep_t4096.csv
+generating 4096 x 512 matrix (16.0 MiB)
+  seq       rep 0: 0.168 s
+  seq       rep 1: 0.167 s
+  seq       rep 2: 0.169 s
+  omp p= 4 rep 0: 0.111 s
+  omp p= 4 rep 1: 0.114 s
+  omp p= 4 rep 2: 0.116 s
+  omp p= 8 rep 0: 0.114 s
+  omp p= 8 rep 1: 0.127 s
+  omp p= 8 rep 2: 0.121 s
+  omp p=16 rep 0: 0.113 s
+  omp p=16 rep 1: 0.119 s
+  omp p=16 rep 2: 0.150 s
+peak RSS 43.023 MiB
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench pipeline --t 16384 --m 512 --threads 4,8,16 --reps 3 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/tsweep_t16384.csv
+generating 16384 x 512 matrix (64.0 MiB)
+  seq       rep 0: 0.407 s
+  seq       rep 1: 0.409 s
+  seq       rep 2: 0.409 s
+  omp p= 4 rep 0: 0.179 s
+  omp p= 4 rep 1: 0.180 s
+  omp p= 4 rep 2: 0.178 s
+  omp p= 8 rep 0: 0.177 s
+  omp p= 8 rep 1: 0.180 s
+  omp p= 8 rep 2: 0.181 s
+  omp p=16 rep 0: 0.165 s
+  omp p=16 rep 1: 0.171 s
+  omp p=16 rep 2: 0.171 s
+peak RSS 139.281 MiB
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench pipeline --t 65536 --m 512 --threads 4,8,16 --reps 3 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/tsweep_t65536.csv
+generating 65536 x 512 matrix (256.0 MiB)
+  seq       rep 0: 1.375 s
+  seq       rep 1: 1.372 s
+  seq       rep 2: 1.369 s
+  omp p= 4 rep 0: 0.461 s
+  omp p= 4 rep 1: 0.488 s
+  omp p= 4 rep 2: 0.447 s
+  omp p= 8 rep 0: 0.490 s
+  omp p= 8 rep 1: 0.491 s
+  omp p= 8 rep 2: 0.493 s
+  omp p=16 rep 0: 0.402 s
+  omp p=16 rep 1: 0.425 s
+  omp p=16 rep 2: 0.424 s
+peak RSS 528.941 MiB
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench stream --threads 1,2,4,6,8,12,16 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/stream.csv
+stream p=1: 18.5566 GB/s (24 B/elem), 24.7421 GB/s (32 B/elem)   [check 16531.5]
+stream p=2: 26.3918 GB/s (24 B/elem), 35.1891 GB/s (32 B/elem)   [check 16531.5]
+stream p=4: 43.5682 GB/s (24 B/elem), 58.0909 GB/s (32 B/elem)   [check 16531.5]
+stream p=6: 38.4611 GB/s (24 B/elem), 51.2814 GB/s (32 B/elem)   [check 16531.5]
+stream p=8: 32.1727 GB/s (24 B/elem), 42.897 GB/s (32 B/elem)   [check 16531.5]
+stream p=12: 40.7216 GB/s (24 B/elem), 54.2954 GB/s (32 B/elem)   [check 16531.5]
+stream p=16: 45.8652 GB/s (24 B/elem), 61.1536 GB/s (32 B/elem)   [check 16531.5]
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/bench peak --threads 1,2,4,6,8,12,16 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/peak.csv
+peak p=1: 36.4411 GFLOP/s   [sink 146.771]
+peak p=2: 72.9505 GFLOP/s   [sink 411.438]
+peak p=4: 145.626 GFLOP/s   [sink 1294.47]
+peak p=6: 85.6377 GFLOP/s   [sink 2649.08]
+peak p=8: 114.166 GFLOP/s   [sink 4475.29]
+peak p=12: 171.235 GFLOP/s   [sink 9542.46]
+peak p=16: 225.62 GFLOP/s   [sink 16496]
++ /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/build/injection_study --data /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/datasets/synthetic/Y_clean.csv --routing /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/datasets/synthetic/A.csv --sizes 100000000.0,20000000.0 --time-start 288 --time-end 432 --time-step 2 --threads 1,2,4,6,8,12,16 --reps 3 --out /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results
+injection study: 20736 experiments (144 flows x 72 time bins x 2 sizes), each a full PCA re-fit of 1008 x 60
+  sequential          : 12.894 s
+  openmp  1 threads   : 12.639 s   speedup 1.02   efficiency 102.0 %   mismatches vs sequential: 0
+  openmp  2 threads   : 6.105 s   speedup 2.11   efficiency 105.6 %   mismatches vs sequential: 0
+  openmp  4 threads   : 3.022 s   speedup 4.27   efficiency 106.7 %   mismatches vs sequential: 0
+  openmp  6 threads   : 2.515 s   speedup 5.13   efficiency 85.5 %   mismatches vs sequential: 0
+  openmp  8 threads   : 2.399 s   speedup 5.38   efficiency 67.2 %   mismatches vs sequential: 0
+  openmp 12 threads   : 2.068 s   speedup 6.24   efficiency 52.0 %   mismatches vs sequential: 0
+  openmp 16 threads   : 1.783 s   speedup 7.23   efficiency 45.2 %   mismatches vs sequential: 0
+  size 2.00e+07: detection rate 24.0 % (2493/10368)
+  size 1.00e+08: detection rate 100.0 % (10364/10368)
+  all OpenMP outcomes identical to sequential
+  wrote /home/snehaan/Projects/Network Intrusion and Traffic anomaly detection system/benchmarks/results/injection_timing.csv and injection_results.csv
+    t    m    backend  threads   total  covariance  eigen  speedup  efficiency_pct  speedup_covariance  amdahl_bound
+ 4096  512     openmp        4  0.1136      0.0186 0.0894   1.4820         37.0509              3.6548        1.5609
+ 4096  512     openmp        8  0.1213      0.0173 0.0973   1.3879         17.3490              3.9261        1.7219
+ 4096  512     openmp       16  0.1190      0.0151 0.0935   1.4147          8.8421              4.4873        1.8155
+ 4096  512 sequential        1  0.1684      0.0680 0.0877   1.0000        100.0000              1.0000        1.0000
+16384  128     openmp        4  0.0162      0.0084 0.0017   1.9153         47.8829              2.0241        3.4421
+16384  128     openmp        8  0.0283      0.0169 0.0023   1.0966         13.7072              0.9985        5.8047
+16384  128     openmp       16  0.0222      0.0129 0.0017   1.3933          8.7078              1.3116        8.8377
+16384  128 sequential        1  0.0310      0.0169 0.0017   1.0000        100.0000              1.0000        1.0000
+16384  256     openmp        4  0.0382      0.0170 0.0107   2.7566         68.9146              3.9334        3.0577
+16384  256     openmp        8  0.0508      0.0263 0.0108   2.0741         25.9265              2.5457        4.6536
+16384  256     openmp       16  0.0402      0.0188 0.0107   2.6192         16.3701              3.5673        6.2968
+16384  256 sequential        1  0.1054      0.0670 0.0108   1.0000        100.0000              1.0000        1.0000
+16384  512     openmp        4  0.1835      0.0674 0.0914   2.2329         55.8213              3.9022        2.4166
+16384  512     openmp        8  0.1822      0.0657 0.0900   2.2487         28.1086              4.0028        3.1634
+16384  512     openmp       16  0.1674      0.0586 0.0909   2.4474         15.2965              4.4936        3.7416
+16384  512 sequential        1  0.4097      0.2631 0.0895   1.0000        100.0000              1.0000        1.0000
+16384 1024     openmp        4  1.1548      0.2655 0.8298   1.7582         43.9540              4.0199        1.8070
+16384 1024     openmp        8  1.1143      0.2233 0.8312   1.8220         22.7756              4.7790        2.0879
+16384 1024     openmp       16  1.0683      0.1977 0.8198   1.9004         11.8773              5.3991        2.2638
+16384 1024 sequential        1  2.0302      1.0673 0.8213   1.0000        100.0000              1.0000        1.0000
+16384 2048     openmp        4  9.2814      1.2122 7.9149   1.4833         37.0822              4.0919        1.4214
+16384 2048     openmp        8  9.1987      1.0444 7.9844   1.4966         18.7079              4.7494        1.5288
+16384 2048     openmp       16  9.0901      0.9917 7.9948   1.5145          9.4657              5.0014        1.5888
+16384 2048 sequential        1 13.7671      4.9601 8.3248   1.0000        100.0000              1.0000        1.0000
+32768 1024     openmp        1  3.7422      2.5566 0.8276   0.9928         99.2769              0.9883        1.0000
+32768 1024     openmp        2  2.3188      1.2953 0.8214   1.6022         80.1109              1.9505        1.6352
+32768 1024     openmp        4  1.5952      0.6451 0.8286   2.3289         58.2236              3.9163        2.3962
+32768 1024     openmp        6  1.5215      0.5890 0.8224   2.4417         40.6949              4.2898        2.8361
+32768 1024     openmp        8  1.5639      0.6011 0.8281   2.3756         29.6947              4.2030        3.1228
+32768 1024     openmp       12  1.4611      0.5460 0.8360   2.5427         21.1894              4.6270        3.4740
+32768 1024     openmp       16  1.5348      0.5547 0.8575   2.4207         15.1291              4.5552        3.6810
+32768 1024 sequential        1  3.7152      2.5266 0.8289   1.0000        100.0000              1.0000        1.0000
+65536  512     openmp        4  0.4612      0.2691 0.0918   2.9736         74.3402              3.9355        3.3517
+65536  512     openmp        8  0.4914      0.3046 0.0880   2.7909         34.8859              3.4763        5.5122
+65536  512     openmp       16  0.4241      0.2642 0.0891   3.2344         20.2148              4.0085        8.1338
+65536  512 sequential        1  1.3716      1.0590 0.0884   1.0000        100.0000              1.0000        1.0000
+
+equivalence: 31 OpenMP configurations checked, bitwise-identical SPE in 31, same r in 31, same alarms in 31, max rel. diff SPE 0.00e+00
+
+injection study:
+   backend  threads  seconds  speedup  efficiency_pct  experiments  experiments_per_s
+    openmp        1   12.639    1.020         102.019        20736           1640.662
+    openmp        2    6.105    2.112         105.603        20736           3396.582
+    openmp        4    3.022    4.266         106.657        20736           6860.977
+    openmp        6    2.515    5.127          85.458        20736           8245.980
+    openmp        8    2.399    5.375          67.192        20736           8644.538
+    openmp       12    2.068    6.236          51.968        20736          10029.019
+    openmp       16    1.783    7.232          45.201        20736          11630.751
+sequential        1   12.894    1.000         100.000        20736           1608.190

@@ -1,0 +1,31 @@
+{
+  "seed": 2004,
+  "nodes": 12,
+  "edges": 18,
+  "links": 60,
+  "flows": 144,
+  "bins_per_week": 1008,
+  "bin_minutes": 10,
+  "mean_flow": 10000000.0,
+  "noise": 0.1,
+  "median_flow_mean": 5239024.421643088,
+  "mean_link_load": 88526788.907226,
+  "anomaly_size_range_x_mean_flow": [
+    6.0,
+    15.0
+  ],
+  "events_per_week": {
+    "spike": 10,
+    "outage": 3,
+    "ddos": 3
+  },
+  "anomalous_bins": {
+    "train": 24,
+    "test": 22
+  },
+  "injection_sizes": {
+    "large": 100000000.0,
+    "small": 20000000.0
+  },
+  "note": "Y = X A^T as in Lakhina et al. section 3; X has gravity-model means, diurnal/weekly profiles with per-PoP time-zone shifts and log-normal noise."
+}

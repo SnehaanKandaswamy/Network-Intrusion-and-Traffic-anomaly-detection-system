@@ -1,0 +1,4 @@
+t,m,threads,max_rel_diff_mean,max_rel_diff_eigenvalues,max_rel_diff_spe,bitwise_identical_spe,same_r,same_alarms
+65536,512,4,0,0,0,1,1,1
+65536,512,8,0,0,0,1,1,1
+65536,512,16,0,0,0,1,1,1

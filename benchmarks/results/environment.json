@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-08T08:46:28",
+  "platform": "Linux-7.2.14-arch1-1-x86_64-with-glibc2.44",
+  "python": "3.14.9",
+  "logical_cpus": 16,
+  "OMP_PROC_BIND": "close",
+  "OMP_PLACES": "cores",
+  "cmake_build_type": "Release",
+  "cmake_cxx_compiler": "/usr/bin/c++",
+  "pca_native": "ON",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13500H",
+  "cpuinfo_max_freq_ghz": {
+    "cpu0": 2.6,
+    "cpu1": 2.6,
+    "cpu2": 2.6,
+    "cpu3": 2.6,
+    "cpu4": 2.6,
+    "cpu5": 2.6,
+    "cpu6": 2.6,
+    "cpu7": 2.6,
+    "cpu8": 1.9,
+    "cpu9": 1.9,
+    "cpu10": 1.9,
+    "cpu11": 1.9,
+    "cpu12": 1.9,
+    "cpu13": 1.9,
+    "cpu14": 1.9,
+    "cpu15": 1.9
+  },
+  "scaling_governor": "powersave",
+  "ac_online": "1"
+}

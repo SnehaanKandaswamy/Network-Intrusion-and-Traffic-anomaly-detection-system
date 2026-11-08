@@ -1,0 +1,28 @@
+{
+  "bins": 1008,
+  "anomalous_bins": 22,
+  "alarms": 17,
+  "tp": 17,
+  "fp": 0,
+  "fn": 5,
+  "tn": 986,
+  "precision": 1.0,
+  "recall": 0.7727272727272727,
+  "f1": 0.8717948717948718,
+  "false_positive_rate": 0.0,
+  "events": {
+    "ddos": {
+      "detected": 3,
+      "total": 3
+    },
+    "outage": {
+      "detected": 0,
+      "total": 3
+    },
+    "spike": {
+      "detected": 10,
+      "total": 10
+    }
+  },
+  "event_detection_rate": 0.8125
+}
